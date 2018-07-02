@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <title>DARTS!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css\index.css">
+    <link rel="stylesheet" href="css\contact.css">
+    <link rel="stylesheet" href="css\contact.css">
+    <link rel="stylesheet" href="css\about.css">
+    <link rel="stylesheet" href="css\inventory.css">
+</head>
+    <body id="bodyCars">
+        <header>
+            <div>
+
+            </div>
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                <a href="#" class="navbar-brand" ></a>
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    <div class="collapse navbar-collapse navHeaderCollapse">
+                        <ul class="nav nav-pills navbar-right">
+                            <li role="presentation"><a class="navlink" href="index.html">Home</a></li>
+                            <li role="presentation"><a class="navlink" href="contact.html">Contact</a></li>
+                            <li role="presentation"><a class="navlink" href="about.html">About</a></li>
+                            <li role="presentation"><a class="navlink" href="inventory.html">Inventory</a></li>
+                        </ul>
+                        <form class="navbar-form navbar-left" action="/action_page.php">
+                            <div class="form-group">
+                              <input id="mySearch" type="text" class="form-control" placeholder="Search">
+                            </div>
+                           <button onclick="myAlert()" type="submit" class="btn btn-default">Search</button>
+                          </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+
+        <table id="carTable">
+                <thead>
+                    <tr>
+                        <th colspan="2" id="dartGen">Generation of Darts</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Click on the Images to ENLARGE</td>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <tr>
+                        <td><h3>First Generation</h3>
+                            <h5>1960 Dodge Dart Pioneer</h5>
+                            <a href="Images/firstGen.jpg"><img id="firstGen" name="firstGen" src="Images/firstGen.jpg" alt="firstGen"></a>
+                            <p>$18,999</p>
+                        </td>
+                        <td><h3>Second Generation</h3>
+                            <h5>1962 Dodge Dart 440</h5>
+                            <a href="Images/secondGen.jpg"><img id="secondGen" name="secondGen" src="Images/secondGen.jpg" alt="secondGen"></a>
+                            <p>$15,999</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h3>Third Generation</h3>
+                            <h5>1964 Dodge Dart GT</h5>
+                            <a href="Images/thirdGen.jpg"><img id="thirdGen" name="thirdGen" src="Images/thirdGen.jpg" alt="thirdGen"></a>
+                            <p>$22,999</p>
+                        </td>
+                        <td><h3>Fourth Generation</h3>
+                            <h5>1972 Demon 340</h5>
+                            <a href="Images/fourthGen.jpg"><img id="fourthGen" name="fourthGen" src="Images/fourthGen.jpg" alt="fourthGen"></a>
+                            <p>$59,999</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h3>New Generation</h3>
+                            <h5>2014 Dodge Dart Rallye GT</h5>
+                            <a href="Images/newGen.jpg"><img id="newGen" name="newGen" src="Images/newGen.jpg" alt="newGen"></a>
+                            <p>$23,999</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <section id="dartHistory">
+                <h2>Dodge Dart History</h2>
+                <fieldset>
+                    <div align="right">
+                        <p>The Dodge Dart is an automobile originally built by Dodge from 1960 to 1976 in North America, with production extended to later years in various other markets. The Dart nameplate was resurrected for a Fiat-derived compact car introduced in 2013.
+
+                                The Dart name originally appeared on a 1957 show car featuring a body designed by the Italian coachbuilder Carrozzeria Ghia. The production Dart was introduced as a lower-priced, shorter wheelbase, full-size Dodge in 1960 and 1961, became a mid-size car for 1962, and finally was a compact from 1963 to 1976.
+
+                        </p>
+                    </div>
+                </fieldset>
+            </section>
+
+
+
+
+
+
+        <footer>
+            <p>This website is courtesy of <a href="https://github.com/joshorion7">Joshua Butler.</a> Clicking the previous link will direct you to my GitHub account. If you have any questions please feel free to message me on GitHub.</p><br>
+            <p>copyright 2017 JB Coding</p>
+        </footer>
+
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
